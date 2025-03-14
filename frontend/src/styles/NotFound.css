@@ -1,0 +1,37 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  padding: var(--spacing-xl);
+  text-align: center;
+}
+
+.not-found-content {
+  max-width: 600px;
+}
+
+.not-found-content h1 {
+  font-size: 8rem;
+  color: var(--primary-color);
+  margin: 0;
+  line-height: 1;
+}
+
+.not-found-content h2 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-dark);
+}
+
+.not-found-content p {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-dark);
+  opacity: 0.8;
+}
+
+.not-found-content .btn {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+} 

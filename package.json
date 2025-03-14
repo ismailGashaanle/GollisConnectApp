@@ -1,0 +1,37 @@
+{
+  "name": "gollisconnect",
+  "version": "1.0.0",
+  "description": "A comprehensive educational management system for Gollis University",
+  "main": "index.js",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install": "npm run install:frontend && npm run install:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:frontend",
+    "start:frontend": "cd frontend && npm run preview",
+    "start:backend": "cd backend && npm run start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailGashaanle/GollisConnectApp.git"
+  },
+  "keywords": [
+    "education",
+    "management",
+    "university",
+    "gollis"
+  ],
+  "author": "Ismail Gashaanle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismailGashaanle/GollisConnectApp/issues"
+  },
+  "homepage": "https://github.com/ismailGashaanle/GollisConnectApp#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
