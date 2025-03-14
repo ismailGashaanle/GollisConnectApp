@@ -1,0 +1,84 @@
+.phone-verification-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.phone-verification-container .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.phone-verification-container .card-header {
+  background-color: #4a6cf7;
+  color: white;
+  padding: 15px 20px;
+}
+
+.phone-verification-container .card-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.phone-verification-container .card-body {
+  padding: 25px;
+}
+
+.phone-verification-container .form-group {
+  margin-bottom: 20px;
+}
+
+.phone-verification-container label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.phone-verification-container .input-group {
+  margin-bottom: 10px;
+}
+
+.phone-verification-container .btn-primary {
+  background-color: #4a6cf7;
+  border-color: #4a6cf7;
+}
+
+.phone-verification-container .btn-primary:hover {
+  background-color: #3a5bd9;
+  border-color: #3a5bd9;
+}
+
+.phone-verification-container .btn-link {
+  color: #4a6cf7;
+  padding: 0;
+  font-weight: 500;
+}
+
+.phone-verification-container .verified-status {
+  text-align: center;
+}
+
+.phone-verification-container .alert-success {
+  background-color: #e6f7e6;
+  color: #28a745;
+  border-color: #c3e6cb;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.phone-verification-container .fa-check-circle {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+@media (max-width: 576px) {
+  .phone-verification-container {
+    padding: 10px;
+  }
+  
+  .phone-verification-container .card-body {
+    padding: 15px;
+  }
+} 
